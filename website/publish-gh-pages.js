@@ -16,7 +16,7 @@ if (!which(`git`)) {
   exit(1);
 }
 
-if (CI_PULL_REQUEST || CIRCLE_BRANCH !== `master` || CIRCLE_PROJECT_USERNAME !== `facebook`) {
+if (CI_PULL_REQUEST || CIRCLE_BRANCH !== `master` || CIRCLE_PROJECT_USERNAME !== `ericvicenti`) {
   echo(`Skipping deploy`);
   exit(0);
 }
