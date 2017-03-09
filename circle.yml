@@ -36,7 +36,7 @@ test:
 deployment:
   website:
     branch: master
-    owner: facebook
+    owner: ericvicenti
     commands:
       # Deploy Jest website
       - git config --global user.email "jest-bot@users.noreply.github.com"
